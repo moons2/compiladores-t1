@@ -28,11 +28,11 @@ Você pode verificar se a instalação foi realizada com exito digitando no term
 python3 --version
 ```
 
-:warning: **ATENÇÃO** :warning: : se o comando `python3`não for reconhecido, use`python`ou verifique se o comando`python3` está incluso nas variáveis de ambiente do seu sistema!
+:warning: **ATENÇÃO** :warning: : se o comando `python3` não for reconhecido, substitua as ocorrências de `python3` neste tutorial por `python`, ou verifique se o comando `python3` está incluso nas variáveis de ambiente do seu sistema!
 
 ### 2. Antlr para python
 
-Após ter instalado `python3`, instale o Antlr para python através do terminal com o comando:
+Após ter instalado `python3`, instale o [Antlr para python](https://www.antlr.org/download.html) através do terminal com o comando:
 
 ```terminal
 pip install antlr4-python3-runtime
@@ -74,7 +74,7 @@ Por fim, para executar nosso analisador léxico basta inserir o seguinte comando
 python3 main.py path_arquivo_entrada.txt path_arquivo_saida.txt
 ```
 
-onde _path_arquivo_entrada.txt_ é o caminho até o arquivo a ser analisado lexicamente e _path_arquivo_saida.txt_ é o caminho onde o resultado da analise léxica será gerado.
+onde `main.py` é o arquivo ou path até o arquivo principal, `path_arquivo_entrada.txt` é o caminho até o arquivo a ser analisado lexicamente e `path_arquivo_saida.txt` é o caminho onde o resultado da analise léxica será gerado.
 
 ## Exemplo
 
@@ -82,6 +82,12 @@ Um exemplo da execução do programa via linha de comando usando caminho absolut
 
 ```terminal
 python3 C:/compiladores/compilatores-t1-main/src/main.py C:/compiladores/compilatores-t1-main/src/testes/input/1-algoritmo_2-2_apostila_LA.txt C:/compiladores/compilatores-t1-main/src/testes/output/1-algoritmo_2-2_apostila_LA.txt
+```
+
+Seguindo as instruções para uso do corretor providas pelo professor, um exemplo de execução deste programa via terminal se dá a seguir:
+
+```terminal
+java -jar C:/compiladores/compiladores-corretor-automatico-1.0-SNAPSHOT-jar-with-dependencies.jar "python3 C:/compiladores/compiladores-t1-main/src/main.py" gcc C:/compiladores/temp C:/compiladores/casos-de-teste "744342, 727339, 725721" lexico
 ```
 
 ## Autores
