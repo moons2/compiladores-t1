@@ -6,15 +6,15 @@ Disciplina: Compiladores 1
 
 ## Sumário
 
-    [Pré requisitos](#pré-requisitos)
+[Pré requisitos](#pré-requisitos)
 
-    [Compilação](#compilação)
+[Compilação](#compilação)
 
-    [Execução](#execução)
+[Execução](#execução)
 
-    [Exemplo](#exemplo)
+[Exemplo](#exemplo)
 
-    [Autores](#autores)
+[Autores](#autores)
 
 ## Pré requisitos
 
