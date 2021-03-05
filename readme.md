@@ -20,31 +20,35 @@ Disciplina: Compiladores 1
 
 Este programa faz uso de Antlr com Python, desta forma é necessario ter instalado:
 
-**1.** [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
+### [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
 
-**1.1** Você pode verificar se a instalação foi realizada com exito digitando no terminal:
+    Você pode verificar se a instalação foi realizada com exito digitando no terminal:
 
-```terminal
-python --version
-```
+    ```terminal
+    python --version
+    ```
 
-:warning: se o comando `python` não for reconhecido altere para `python3` ou verifique se o comando `python` está incluso nas variáveis de ambiente do seu sistema!
+    :warning: se o comando `python` não for reconhecido altere para `python3` ou verifique se o comando `python` está incluso nas variáveis de ambiente do seu sistema!
 
-**2.** Após ter instalado `python3`, instale o Antlr para python através do terminal com o comando:
+### Antlr para python
+
+Após ter instalado `python3`, instale o Antlr para python através do terminal com o comando:
 
 ```terminal
 pip install antlr4-python3-runtime
 ```
 
-**3.** Qualquer versão Java JDK 1.8.0_211 ou superior.
+### Qualquer versão Java JDK 1.8.0_211 ou superior.
 
-**3.1** Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
+    Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
 
-```terminal
-java -version
-```
+    ```terminal
+    java -version
+    ```
 
-**4.** Este repositorio: faça o download deste repositorio clicando em **code > Download Zip** e descompate em um diretorio local ou através do terminal com:
+### Este repositorio
+
+faça o download deste repositorio clicando em **code > Download Zip** e descompate em um diretorio local ou através do terminal com:
 
 ```terminal
 git clone https://github.com/moons2/compiladores-t1
