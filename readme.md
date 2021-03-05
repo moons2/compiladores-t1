@@ -28,7 +28,7 @@ Você pode verificar se a instalação foi realizada com exito digitando no term
 python3 --version
 ```
 
-:warning: <span style="color:red;">ATENÇÃO:</span> se o comando `python3` não for reconhecido, use `python` ou verifique se o comando `python3` está incluso nas variáveis de ambiente do seu sistema!
+:warning: **ATENÇÃO** :warning: : se o comando `python3`não for reconhecido, use`python`ou verifique se o comando`python3` está incluso nas variáveis de ambiente do seu sistema!
 
 ### Antlr para python
 
