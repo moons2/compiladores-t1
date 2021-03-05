@@ -1,4 +1,4 @@
-<h1 align="center"> Analisador Léxico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1</h1>
+<h1 align="center"> Analisador Léxico para a Linguagem Algorítmica (LA) - Trabalho 1</h1>
 
 <small>Professor: Daniel Lucrédio</small>
 

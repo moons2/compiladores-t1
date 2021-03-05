@@ -18,7 +18,6 @@ para executar:
 # importacoes
 from antlr4 import *
 from LALexer import LALexer
-import subprocess
 import sys
 import os
 
