@@ -56,9 +56,23 @@ git clone https://github.com/moons2/compiladores-t1
 
 ## Compilação
 
-Antes de prosseguir com a execução deste analisador lexico
+Uma vez cumprido os passos presentes em [Pré requisitos](#pré-requisitos), precisamos compilar a gramática regular `LALexer.g4`, abra o terminal na pasta `/src` e digite:
+
+```terminal
+java -jar antlr-4.9.1-complete.jar -Dlanguage=Python3 LALexer.g4
+```
+
+Nenhuma mensagem foi exibida no terminal, mas foram gerados alguns arquivos como `LALexer.py`, `LALexer.interp` e `LALexer.tokens`
+
+:+1: Compilação realizada com exito!
 
 ## Execução
+
+Por fim, para executar nosso analisador léxico basta inserir o seguinte comando no terminal:
+
+```terminal
+python main.py path_arquivo_entrada.txt path_arquivo_saida.txt
+```
 
 ## Exemplo
 
