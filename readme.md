@@ -1,8 +1,8 @@
-# Analisador Léxico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1
+<h1 style="text-align:center;"> Analisador Léxico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1</h1>
 
-Professor: Daniel Lucrédio
+<small>Professor: Daniel Lucrédio</small>
 
-Disciplina: Compiladores 1
+<small>Disciplina: Compiladores 1</small>
 
 ## Sumário
 
