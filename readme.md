@@ -20,7 +20,7 @@
 
 Este programa faz uso de Antlr com Python, desta forma é necessario ter instalado:
 
-### [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
+### 1. [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
 
 Você pode verificar se a instalação foi realizada com exito digitando no terminal:
 
@@ -30,7 +30,7 @@ python3 --version
 
 :warning: **ATENÇÃO** :warning: : se o comando `python3`não for reconhecido, use`python`ou verifique se o comando`python3` está incluso nas variáveis de ambiente do seu sistema!
 
-### Antlr para python
+### 2. Antlr para python
 
 Após ter instalado `python3`, instale o Antlr para python através do terminal com o comando:
 
@@ -38,7 +38,7 @@ Após ter instalado `python3`, instale o Antlr para python através do terminal 
 pip install antlr4-python3-runtime
 ```
 
-### Qualquer versão Java JDK 11.0.2 ou superior.
+### 3. Qualquer versão Java JDK 11.0.2 ou superior.
 
 Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
 
@@ -46,7 +46,7 @@ Você pode verificar se tem o Java instalado em seu sistema obtendo a versão at
 java -version
 ```
 
-### Este repositorio
+### 4. Este repositorio
 
 faça o download deste repositorio clicando em **code > Download Zip** e descompate em um diretorio local ou através do terminal com:
 
@@ -74,14 +74,14 @@ Por fim, para executar nosso analisador léxico basta inserir o seguinte comando
 python3 main.py path_arquivo_entrada.txt path_arquivo_saida.txt
 ```
 
-onde _path_arquivo_entrada.txt_ é o caminho até o arquivo a ser analisado lexicamente e _path_arquivo_saida.txt_ é o caminho onde o resultado da analise lexica será gerado.
+onde _path_arquivo_entrada.txt_ é o caminho até o arquivo a ser analisado lexicamente e _path_arquivo_saida.txt_ é o caminho onde o resultado da analise léxica será gerado.
 
 ## Exemplo
 
 Um exemplo da execução do programa via linha de comando usando caminho absoluto:
 
 ```terminal
-python3
+python3 C:/compiladores/compilatores-t1-main/src/main.py C:/compiladores/compilatores-t1-main/src/testes/input/1-algoritmo_2-2_apostila_LA.txt C:/compiladores/compilatores-t1-main/src/testes/output/1-algoritmo_2-2_apostila_LA.txt
 ```
 
 ## Autores
