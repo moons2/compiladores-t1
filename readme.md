@@ -1,4 +1,4 @@
-<h1 style="text-align:center;"> Analisador Léxico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1</h1>
+<h1 style="text-align:center;align:center;"> Analisador Léxico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1</h1>
 
 <small>Professor: Daniel Lucrédio</small>
 
@@ -25,10 +25,10 @@ Este programa faz uso de Antlr com Python, desta forma é necessario ter instala
 Você pode verificar se a instalação foi realizada com exito digitando no terminal:
 
 ```terminal
-python --version
+python3 --version
 ```
 
-:warning: se o comando `python` não for reconhecido altere para `python3` ou verifique se o comando `python` está incluso nas variáveis de ambiente do seu sistema!
+:warning: <span style="color:red;">ATENÇÃO:</span> se o comando `python3` não for reconhecido, use `python` ou verifique se o comando `python3` está incluso nas variáveis de ambiente do seu sistema!
 
 ### Antlr para python
 
@@ -38,7 +38,7 @@ Após ter instalado `python3`, instale o Antlr para python através do terminal 
 pip install antlr4-python3-runtime
 ```
 
-### Qualquer versão Java JDK 1.8.0_211 ou superior.
+### Qualquer versão Java JDK 11.0.2 ou superior.
 
 Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
 
@@ -71,10 +71,18 @@ Nenhuma mensagem foi exibida no terminal, mas foram gerados alguns arquivos como
 Por fim, para executar nosso analisador léxico basta inserir o seguinte comando no terminal:
 
 ```terminal
-python main.py path_arquivo_entrada.txt path_arquivo_saida.txt
+python3 main.py path_arquivo_entrada.txt path_arquivo_saida.txt
 ```
 
+onde _path_arquivo_entrada.txt_ é o caminho até o arquivo a ser analisado lexicamente e _path_arquivo_saida.txt_ é o caminho onde o resultado da analise lexica será gerado.
+
 ## Exemplo
+
+Um exemplo da execução do programa via linha de comando usando caminho absoluto:
+
+```terminal
+python3
+```
 
 ## Autores
 
