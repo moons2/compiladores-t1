@@ -1,12 +1,15 @@
 # Analisador Lexico para a linguagem LA (Linguagem Algoritmica) - Trabalho 1
 
 Professor: Daniel Lucrédio
+
 Disciplina: Compiladores 1
 
 ### Autores
 
 Luan V. Moraes da Silva - 744342
+
 Guilherme Servidoni - 727339
+
 Alisson Roberto Gomes - 725721
 
 ## Sumário
@@ -14,9 +17,9 @@ Alisson Roberto Gomes - 725721
 <!--ts-->
 
 [Autores](#autores)
-[Pré requisitos](#pre-requisitos)
-[Compilação](#compilacao)
-[Execução](#execucao)
+[Pré requisitos](#pré-requisitos)
+[Compilação](#compilação)
+[Execução](#execução)
 [Exemplo](#exemplo)
 
 <!--te-->
@@ -26,6 +29,7 @@ Alisson Roberto Gomes - 725721
 Este programa faz uso de Antlr com Python, desta forma é necessario ter instalado
 
 1. [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
+
    1.1 Você pode verificar se a instalação foi realizada com exito digitando no terminal:
 
    ```terminal
@@ -41,6 +45,7 @@ pip install antlr4-python3-runtime
 ```
 
 3. Qualquer versão Java JDK 1.8.0_211 ou superior.
+
    3.1 Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
 
    ```terminal
@@ -60,5 +65,3 @@ Antes de prosseguir com a execução deste analisador lexico
 ## Execução
 
 ## Exemplo
-
-## Obervações importantes
