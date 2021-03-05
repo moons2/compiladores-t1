@@ -22,13 +22,13 @@ Este programa faz uso de Antlr com Python, desta forma é necessario ter instala
 
 ### [python3](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe)
 
-    Você pode verificar se a instalação foi realizada com exito digitando no terminal:
+Você pode verificar se a instalação foi realizada com exito digitando no terminal:
 
-    ```terminal
-    python --version
-    ```
+```terminal
+python --version
+```
 
-    :warning: se o comando `python` não for reconhecido altere para `python3` ou verifique se o comando `python` está incluso nas variáveis de ambiente do seu sistema!
+:warning: se o comando `python` não for reconhecido altere para `python3` ou verifique se o comando `python` está incluso nas variáveis de ambiente do seu sistema!
 
 ### Antlr para python
 
@@ -40,11 +40,11 @@ pip install antlr4-python3-runtime
 
 ### Qualquer versão Java JDK 1.8.0_211 ou superior.
 
-    Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
+Você pode verificar se tem o Java instalado em seu sistema obtendo a versão através do terminal com o seguinte comando:
 
-    ```terminal
-    java -version
-    ```
+```terminal
+java -version
+```
 
 ### Este repositorio
 
