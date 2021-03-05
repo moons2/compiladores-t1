@@ -12,6 +12,8 @@
 
 [Execução](#execução)
 
+[Código fonte](#código-fonte)
+
 [Exemplo](#exemplo)
 
 [Autores](#autores)
@@ -75,6 +77,10 @@ python3 main.py path_arquivo_entrada.txt path_arquivo_saida.txt
 ```
 
 onde `main.py` é o arquivo ou path até o arquivo principal, `path_arquivo_entrada.txt` é o caminho até o arquivo a ser analisado lexicamente e `path_arquivo_saida.txt` é o caminho onde o resultado da analise léxica será gerado.
+
+## Código fonte
+
+O código fonte devidamente comentado desta aplicação se encontra na pasta `src/main.py`!
 
 ## Exemplo
 
